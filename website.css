@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Elements;
+    src: url(ChildWitch.ttf);
+}
+
+html, body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #E0B0FF;
+    margin: 0;
+    background-image: linear-gradient(to right, #C13000, #230A1D, #255FB6);
+}
+
+header{
+    padding: 40px;
+    text-align: center;
+    font-family: Elements;
+}
+
+h2 {
+    font-family: Elements;
+    font-size: xx-large;
+    background: -webkit-linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: Elements;
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header img {
+    border-radius: 500px;
+    width: 150px;
+    border: #D53C00 5px solid;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content p{
+	text-indent: 20px;
+}
+
+
+img.big-image {
+    max-width: 100%;
+}
+
+.caption {
+    font-size: 16px;
+    font-style: italic;
+    text-align:center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+	height: 300px;
+	color: black;
+    text-align: center;
+    margin-bottom:1;
+    padding-bottom: 50px;
+}
+
+.card {
+    height: 200px;
+    flex: 1 1 20px;
+    padding-bottom: 100px;
+	margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.card p {
+    text-align: center;
+    color: #E0B0FF;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 1s ease;
+}
+.card:hover{
+    flex: 1.3 1 10px;
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+.card:hover p {
+	color: red;
+}
+
+footer ul {
+    background-image: linear-gradient(to bottom, #FFFFFF, #255FB6);
+    text-align: center;
+    font-style: italic;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color:red;
+    text-decoration: none;
+}
